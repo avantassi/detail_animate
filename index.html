@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=500, user-scalable=0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Scroll</title>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="maincontent">
+
+        <div class="empty">Scroll me</div>
+
+        <div class="part">
+            <div class="part__wrap">
+                <div class="part__img-wrap">
+                    <img src="img/car-bg.png" alt="" class="part__img">
+                    <img src="img/car-1.png" alt="" class="detail detail--1" data-aos="fade-up">
+                    <img src="img/car-2.png" alt="" class="detail detail--2" data-aos="fade-right">
+                    <img src="img/car-3.png" alt="" class="detail detail--3" data-aos="fade-left">
+                    <img src="img/car-4.png" alt="" class="detail detail--4" data-aos="fade-down">
+                </div>
+                <div class="part__descr-wrap">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores at optio voluptas? Ratione, 
+                    velit officiis itaque repellendus natus alias officia provident, mollitia adipisci deleniti 
+                    molestiae reiciendis omnis debitis tempore esse!
+                </div>
+            </div>
+        </div>
+
+        <div class="empty">Scroll me</div>
+
+    </div>
+
+
+    </div> 
+
+</div>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+        
+      
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 500, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 400, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+      
+      });</script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

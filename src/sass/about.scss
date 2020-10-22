@@ -1,0 +1,35 @@
+.empty{
+    height: 1500px;
+}
+
+.image{
+    display: flex;
+}
+
+.im{
+    height: 100px;
+    width: 100px;
+    background: #ccc;
+}
+
+.part{
+
+
+    &__wrap{
+        display: flex;
+    }
+
+    &__img-wrap{
+        position: relative;
+    }
+
+    &__img{
+        width: 100%;
+        float: right;
+    }
+}
+
+.detail{
+    position: absolute;
+    width: 100%;
+}

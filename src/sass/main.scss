@@ -1,0 +1,18 @@
+$notebook: 1000px;
+$tablets: 930px;
+$phones: 500px;
+
+@import "media.scss";
+@import "var.scss";
+@import "adjust.scss";
+//@import "fonts.scss";
+//@import "form.scss";
+
+@import "header.scss";
+@import "hero.scss";
+@import "about.scss";
+
+@import "footer.scss";
+
+@import "modal.scss";
+// @import "hamburger.scss";
